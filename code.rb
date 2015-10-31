@@ -5,7 +5,7 @@ def caesar_cipher(string)
 
   shift = 3
   shift.times do |shift|
-    shiftyArray << charLine.map do |c|
+    shiftedArray << charLine.map do |c|
       ((c + shift) < 123 ? (c + shift) : (c + shift) - 26).chr
     end.join
   end
