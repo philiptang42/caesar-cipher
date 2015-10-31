@@ -1,5 +1,5 @@
 def caesar_cipher(string)
-  shiftyArray = []
+  shiftedArray = []
   charLine = string.chars.map(&:ord)
   alphabet = 26
 
@@ -10,7 +10,7 @@ def caesar_cipher(string)
     end.join
   end
 
-  shiftyArray[2]
+  shiftedArray[2]
 end
 
 puts caesar_cipher("a")
