@@ -1,5 +1,3 @@
-
-
 def caesar_cipher(string)
   shiftyArray = []
   charLine = string.chars.map(&:ord)
